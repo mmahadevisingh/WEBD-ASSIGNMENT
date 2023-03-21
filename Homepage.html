@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            h1{
+                color:rgb(13, 13, 14);
+                font-weight:bolder;
+                text-align: center ;
+            }
+            *{
+                box-sizing: border-box;
+                background-image: linear-gradient(to right bottom,rgba(255, 247, 0, 0.909) 60%,rgba(0, 255, 0, 0.5) 60%),url(img1.jpg);            
+            }
+            .card{
+                width:30%;
+                padding:20px;
+                box-shadow: 2px 2px 5px  rgb(21, 21, 196);
+                position: relative;
+                background-color: yellow;
+            }
+            .desc{
+                padding: 10px;               
+            }
+           a{
+            color:crimson;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: medium;
+           }
+        </style>
+    </head>
+    
+    <body>
+        <h1>LAB EXCERISES HOMEPAGE</h1>
+        <div style="display: flex; flex-direction: row;flex-wrap: wrap;margin-left: 100px;">
+            <script>
+                links=["ex1.html","qpaper.html","ex3.html","ex4.html","ex5.html","TimeTable.html","ex7.html","html8.html","Q9.html","week.html","Q11.html","Q12.html","Q13.html","Excercise-14.html","ex1final.html","Q16.html","Q17.html","Q18.html","Q19.html","Q20.html","Q21.html","Q22.html","card.html","Q24.html","Q25.html","Q26.html","Q27.html",     "Q28.html","Q29.html","Q30.html"];
+                titles=["Q1","Q2","Q3","Q4","Q5","Q6","Q7","Q8","Q9","Q10","Q11","Q12","Q13","Q14","Q15","Q16","Q17","Q18","Q19","Q20","Q21","Q22","Q23","Q24","Q25","Q26","Q27","Q28","Q29","Q30"];
+                description=["Create a web document that contains text.Use h1 for the title (the first line of text), p for text (the second lines onwards of text). Insert a horizontal rule between the h1 element and the p element. Also use styling elements to format special words using bold, italic, underline etc. Open your new document in a web browser to view the marked-up document","Create a web page to display a quiz with at least 5 questions.","Create a web document containing an ordered list of three items—ice cream, pizza and soft drink. Each ordered list should contain a nested, unordered list of your favourite flavours. Provide three flavours in each unordered list.","Create an HTML5 document that uses an image as an e-mail link. Use attribute alt to provide a description of the image and link","Create an HTML5 document that contains links to your five favourite E-commerce websites. Your page should contain the heading “My Favourite Shopping Web Sites.” Click on each of these links to test your page.","Create a web page to display your class time table in tabular format.","Create a web page having 9 images arranged in 3*3 matrixes. When a user click on any image, it should open in a new tab.","Create a webpage to insert the images/4.jpeg and implement an image map over it. ","Create a user feedback page which asks questions about a software product.","Create an autocomplete input element with an associated datalist that contains the days of the week.","Modify the webpage created in Exercise-2 using HTML form. Use radio buttons for options, so user can choose only one among 4 options. Also add a submit button for quiz submission.","Create a simple search form using a search input element in which the user can enter a search query.....","Create a home page for personal website with 4 sections Header, Navigation bar (menu bar), content and footer section. It should have a menu bar for “Bio-Data, Contact, Photo, Video, Notes etc.” ","Develop static pages (using only HTML) of an online book store, the pages should resemble: www.amazon.com ","Create Write an external style sheet to format the web document of Exercise 1 to apply following effects....","Create a webpage that displays your favourite quotations in a web page just above images...","Make a layout template that contains a header and two paragraphs....","Create an infinite animation of an element moving in a square pattern.","Create a transformation program that includes four images. When the user mouse hover an image, the size of the image should increase by 20%.","Implement a one page personal website to present your resume. Design of the webpage should be like given example.","Create a Home Page for Banasthali's Website look like following website.","Implement a Javascript function that accept number of rows(m) and columns(n) from user and displays a 2D m x n square layout of alternate colorsblack and red.","Create a web page to display events in card layout...",". Create a Web page that accept a value in a text box for temperature in one unit and convert it to another. It should accept input in kelvin, Celsius, Fahrenheit and Convert accordingly. ",".. Apply appropriate client side validations using JavaScript for all fields of html form. Also layout this form using a CSS.","Create a Webpage with two buttons start and stop. When user click on start button a timer should start to count seconds. When a user click on stop button then it should stop. "," Create a Webpage to display digital clock that display updated time of your system without refreshing webpage","Write a JavaScript to display greeting message according to time with user name that is accessing the webpage. When user clicks on the greeting message it should hide","Write a JavaScript code that displays text “TEXT-GROWING” with increasing font size...","Write a script that plays a “guess the number” game"];
+                for(i=0;i<30;i++)
+                {
+                    x='<div class="card">'+
+                        '<div class="desc">'+'<a href='+links[i]+
+                        ' target=_blank>'+'<h2>'+titles[i]+'</h2><p>'+description[i]+'</p></div></div>';
+                    document.write(x);
+                }
+            </script>
+        </div>
+    </body>
+</html>
