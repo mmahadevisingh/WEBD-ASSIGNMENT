@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .card{
+                width:30%;
+                padding:20px;
+                box-shadow: 2px 2px 5px black;
+                position: relative;
+            }
+            .card>img{
+                width:100%;
+                display: block;
+            }
+            .desc{
+                padding: 10px;
+            }
+            .kg{
+                    background-color: beige;
+                    height: 80px;
+                    width: 80px;
+                    transform: rotate(-45deg);
+                    bottom: 55px;
+                    position: relative;
+            }
+            .kg>p{
+                transform: rotate(45deg);
+                vertical-align: middle;
+                position:relative;
+                left:10px;
+                top:45px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;">
+            <script>
+                images=["krishna.jpg","NINDAK.jpg","failure-5.jpg"];
+                titles=["Janmashtami","Kabir Jayanti","Result day"];
+                description=["Sansar shram hai","Nindak niyare rakhiye...","Perseverance is the key to success"];
+                date=["18-08-23","19-11-23","13-03-23"]
+                for(i=0;i<3;i++)
+                {
+                    x='<div class="card"><img src="'+images[i]+'"/><div class="kg"><p>'+date[i]+'</p></div><div class="desc"><h2>'+titles[i]+'</h2><p>'+description[i]+'</p></div></div>';
+                    document.write(x);
+                }
+            </script>
+        </div>
+    </body>
+</html>

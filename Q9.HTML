@@ -1,0 +1,35 @@
+
+<html>
+	<head>
+		<title>HTML Forms</title>
+	</head>
+	<body>
+ 		<h1> FEEDBACK FORM</h1>
+		<form method="post" action="profile.html">
+			<table border=0>
+			<br><tr><td><label> Do you think that a new mobile app will be of use that can help you contact to the doctor anytime anywhere? </label></td></tr>
+			<tr><td><label>yes</label></td>
+			<td><input type=radio name="ans1" value=1/></td></tr>
+                  <tr><td><label> No</label></td>
+			<td><input type=radio name="ans1" value=1/></td></tr>
+			<tr><td><label> Which features do you think shall be helpful?</label></td></tr>
+			<tr><td><label>ambulance and hospital tracker in case of emergency</label></td><td><input type=Checkbox name=x value="1" /></td></tr>
+			<tr><td><label>credit points on ordering medicine</label></td><td><input type=Checkbox name=x value="2" /></td></tr>
+			<tr><td><label>voice/video call in case of queries</label></td><td><input type=Checkbox name=x value="3" /></td></tr>
+			<tr><td><label>entire medical procedure online, with best retired doctors at minimal fees</label></td><td><input type=Checkbox name=x value="4" /></td></tr>
+			<tr><td><label>Which feature do you like the most?</label></td></tr>
+			<tr><td><select name=feature>
+			<option value=1>Ambulance Map</option>
+			<option value=2>credit points</option>
+			<option value=3>cost effectiveness</option>
+			<option value=4>basic functions</options>
+			<option value=5>nothing</options></select></td></tr>
+			<tr><td><label>Rate the app on a scale of 1-10</label></td>
+			<td><input type=number min=1 max=10 /></td></tr> 
+			<tr><td><label>Any suggession?</label></td></tr>
+			<tr><td><input type=text name=ans4 autocomplete=on required placeholder="Type here" autofocus/>
+			</td></tr>
+  			<tr><td><input type=submit /></td></tr></table>
+		</form>
+	</body>
+</html>

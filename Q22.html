@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Chess Board</title>
+    <style>
+        td:hover{
+            background-color: aliceblue;
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        m=parseFloat(prompt("Enter the number of rows"));
+        n=parseFloat(prompt("Enter the number of columns"));
+        document.write("<table border=1 height=100% width=100% class='hov'>");
+        for(i=0;i<m;i++)
+        {
+            document.write("<tr>");
+            for(j=0;j<n;j++)
+            {
+                if((i+j)%2==0)
+                clr="red";
+                else
+                clr="black";
+                document.write("<td style='background-color:"+clr+"'>  </td>");
+              
+            }
+            document.write("</tr>");
+           
+        }
+        document.write("</table>");
+    </script>
+
+</body>
+</html>

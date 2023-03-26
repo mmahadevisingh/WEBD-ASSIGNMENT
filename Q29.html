@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Text Animation</title>
+    <style>
+        div{
+            background-color: yellow;
+            height:100%;
+            width:100%;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="textan"></div>
+        <script>
+            var inc =setInterval(incr,100);
+            var size=5;
+            var Eid=document.getElementById("textan");
+            function incr()
+            {
+                size=size+1;
+                Eid.innerHTML="TEXT-GROWING";
+                Eid.setAttribute("style","font-size:"+ size+"pt; color:red");
+                if(size==50)
+                {
+                    clearInterval(inc);
+                    var dec=setInterval(decr,100);
+                }
+            }
+            function decr()
+            {
+                size=size-1;
+                Eid.innerHTML="TEXT-SHRINKING";
+                Eid.setAttribute("style","font-size:"+ (size+"pt;") +"color:blue");
+                if(size==5)
+                    clearInterval(inc);
+            }
+        </script>
+    </body>
+</html>
+
+
+
+

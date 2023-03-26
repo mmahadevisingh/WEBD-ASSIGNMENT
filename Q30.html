@@ -1,0 +1,39 @@
+<html>
+    <head><title>Game</title></head>
+    <body>
+        <button onclick="game()">start</button>
+        <script type="text/javascript">
+            function game()
+            {
+                let n=Math.floor((Math.random()*1000))+1;
+                let num=parseInt(prompt("Guess a number between 1 and 1000"));
+                if(num>1 && num<1000)
+                {
+                    while(1)
+                    {
+                        if(n<num)
+                        {
+                             alert("Too high!!Try again.");
+                             num=parseInt(prompt("Guess a number between 1 and 1000"));
+                        }
+                        else if(n>num) 
+                        {
+                             alert("Too low!!Try again.");
+                             num=parseInt(prompt("Guess a number between 1 and 1000"));
+                        }
+                        else
+                        {
+                            alert("Congratulations. You guessed the number!");
+                            num=parseInt(prompt("Guess a number between 1 and 1000"));
+                        }
+                        
+                 
+                    }
+            
+                }
+
+    }       
+    </script>
+</body>
+</html>
+          

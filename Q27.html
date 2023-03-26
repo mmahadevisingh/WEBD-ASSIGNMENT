@@ -1,0 +1,21 @@
+<html>
+    <head><title>Time</title></head>
+    <body>
+        <div id="clock">
+        <script>
+            function Timer()
+            {
+                dt=new Date()
+                hr=dt.getHours()
+                mm=dt.getMinutes()
+                ss=dt.getSeconds()
+                cTime=hr+":"+mm+":"+ss
+                document.getElementById("clock").innerHTML="<p> TIME:"+cTime+"</p>";
+            }
+            setInterval(Timer,1000);
+            Timer()
+        </script>
+
+        </div>
+    </body>
+</html>    
