@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>HTML Forms</title>
+	</head>
+	<body>
+ 		<h1> Registration </h1>
+		<form method="get" action="form.html" autocomplete="on" >
+			<label> UserName : </label>
+			<input type=text name="uname" placeholder="Enter username" size=40 />
+  			<br>
+			<label> Password : </label>
+			<input type=password name="pass"/>
+  			<br>
+			<label> Gender : </label>
+			<input type=radio name=gender value="m" />
+			<label> Male: </label>
+			<input type=radio name=gender value="f" />
+    			<label> Female: </label>
+   			<br>
+			<label> Hobbies : </label>
+			<input type=checkbox name=hobbies value="singing" />
+			<label> Singing: </label>
+			<input type=checkbox name=hobbies value="dancing" />
+    			<label> Dancing: </label>
+			<input type=checkbox name=hobbies value="reading" />
+    			<label> Reading: </label><br>
+			<label>Class : </label>
+			<select name=class multiple>
+			<option value="default" selected> cHOOSE YOUR CLASS</OPTION>
+ 				<option value="it">B.Tech. (IT) </option>
+				<option value="cs">B.Tech. (CS) </option>
+				<option value="mtcs">M.Tech. (IT) </option>
+			</select><br>
+   			<label>Comments : </label>
+			<textarea rows=5 cols=30 name=comments placeholder=comments>
+			
+			</textarea><br>
+			<input type=reset />
+			<input type=submit value="Register" /><br>
+     			
+		</form>
+	</body>
+</html>
