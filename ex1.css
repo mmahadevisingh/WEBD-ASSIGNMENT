@@ -1,0 +1,27 @@
+body {
+    background-color:darkgreen;
+    background-image:linear-gradient(to right bottom,rgba(255,0,0,.5) 60%,rgba(0,255,0,.5) 60%), url('img2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+h1{
+    color:white;
+    font-size: 30px;
+    font-weight:bolder;
+    text-align: center;
+}
+h2{
+    color:aquamarine;
+    font-size: 20px;
+}
+p{
+    font-size:15px;
+    color:yellow;
+    line-height: 2;
+}
+.highlight{
+    font-size:15px ;
+    font-weight:bolder;
+    background-color:darkgreen;
+}

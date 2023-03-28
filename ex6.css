@@ -1,0 +1,216 @@
+    .container{
+    display:flex;
+    height:100%;
+    width: 100%;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container>.one{
+    background-color: orangered;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.one>.Intro{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:white;
+    box-shadow: 10px 10px 5px orange;
+}
+.container>.two{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.two>.Bio{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:white;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.container>.three{
+    background-color:lightgreen;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.three>.Code{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:white;
+    box-shadow: 10px 10px 5px rgb(0, 255, 179);
+}
+.container>.four{
+    background-color:rgb(234, 255, 0);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.four>.Projects{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:white;
+    box-shadow: 10px 10px 5px rgb(255, 208, 0);
+}
+.container>.five{
+    background-color:violet;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.five>.education{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:white;
+    box-shadow: 10px 10px 5px rgb(238, 130, 215);
+}
+.container>.six{
+    background-color:orange;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.six>.cer{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:white;
+    box-shadow: 10px 10px 5px rgb(246, 255, 0);
+}
+.container>.seven{
+    background-color:grey;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.container>.seven>.aa{
+    text-align:justify;
+    position: relative;
+    font-size:20px;
+    text-indent:80px;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+    color:rgb(8, 8, 8);
+    box-sizing: border-box; /*to make border box*/
+    height: 500px;
+    width: 85%;
+    background-color:white;
+    box-shadow: 10px 10px 5px black;
+}
+h1{
+    font-weight: bolder;
+    font-color:black;
+}
+h2{
+    font-weight: lighter;
+}
+h3{
+    color:orangered;
+    font-weight: bold;
+}
+        .container>.zero> nav {
+              
+              
+              font-size:50px;  
+              position:absolute;
+            top:0px;
+
+             }
+            .container>.zero >nav ol {
+                list-style:none;
+                margin:0;
+                padding:0;        
+                
+                }
+        .container>.zero> nav ol a {
+            text-decoration: none;
+        }
+        
+        .container>.zero> nav ol li {
+            background-color:black;
+            color:white;
+            margin:2px;
+            padding-left:10px;
+            float:left;
+            width:218px;
+            box-shadow:2px 2px 3px gold;
+        }
+        .container>.zero>nav ol li:hover {
+            background-color:white;
+            color:black;
+        }

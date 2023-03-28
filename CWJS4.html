@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Chess Board</title>
+</head>
+<body>
+    <script>
+        row=parseFloat(prompt("Enter the number of rows"));
+        cols=parseFloat(prompt("Enter the number of columns"));
+        for(i=0;i<row;i++)
+        {
+            document.write("<div class='one'>");
+            for(j=0;j<cols;j++)
+            {
+                if((i+j)%2==0)
+                clr="red";
+                else
+                clr="black";
+                document.write("<div style='background-color:"+clr+"'>  </div>");
+              
+            }
+            document.write("</div>");
+           
+        }
+        document.write("</div>");
+    </script>
+    <style>
+        <
+    </style>
+</body>
+</html>

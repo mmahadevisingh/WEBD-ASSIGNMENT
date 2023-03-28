@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Jvascript function
+        </title>
+    </head>
+    <body>
+        <script type="text/javascript" >
+            person = {
+                first : "" ,
+                last : "" ,
+                intro : {
+                           qualification : 'M.Tech',
+                           desg : 'Assistant professor'
+                },
+                fullname : function() {
+                                       return this.first + " " + this.last;
+                }
+
+            }
+            clr_arr=['red','green','black',56787];
+
+                person.first ='Muskan';
+                person.last ='Gupta';
+                clr_arr.push('yellow');
+                z=clr_arr.pop();
+                alert(person.fullname());
+                for(i=0;i<clr_arr.length;i++)
+                {
+                    document.write("<h1 style='color:"+ clr_arr[i] +"'>");
+                    document.write(person.intro.desg);
+                    document.write("</h1>");
+                
+                }
+                /*document.write(peroswn.intro.desg)*/
+                
+
+            document.write(clr_arr.sort().reverse().join('---'));
+        </script>
+    </body>
+</html>
